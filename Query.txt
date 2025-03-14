@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS hotel_reservation_system;
+USE hotel_reservation_system;
+CREATE TABLE IF NOT EXISTS reservations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    room_number INT,
+    check_in_date DATE,
+    check_out_date DATE,
+);
